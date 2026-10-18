@@ -1,0 +1,2 @@
+# --- general ---
+# (nothing extra: add lines here for files that should never go into git)

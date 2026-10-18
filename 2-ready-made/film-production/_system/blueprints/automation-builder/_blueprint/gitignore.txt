@@ -1,0 +1,3 @@
+# --- automation-builder ---
+workflows/private/*
+!workflows/private/README.md

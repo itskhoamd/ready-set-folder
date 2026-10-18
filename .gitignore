@@ -1,0 +1,8 @@
+# Generated zips (uploaded to GitHub Releases by the workflow)
+dist/
+
+# System junk
+.DS_Store
+._*
+Thumbs.db
+__pycache__/

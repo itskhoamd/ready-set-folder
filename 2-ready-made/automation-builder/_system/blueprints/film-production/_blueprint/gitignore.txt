@@ -1,0 +1,6 @@
+# --- film-production: people's data and receipts never go into a shared or public copy ---
+jobs/*
+!jobs/README.md
+!jobs/_JOB-TEMPLATE/
+portfolio/bts/*
+!portfolio/bts/README.md

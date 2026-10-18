@@ -1,0 +1,4 @@
+# --- client-projects: client data never goes into a shared or public copy ---
+clients/*
+!clients/README.md
+!clients/_CLIENT-TEMPLATE/

@@ -1,0 +1,2 @@
+Date,Item,Category,Paid to,Amount,Currency,Paid by,Receipt file,Notes
+<YYYY-MM-DD>,<item>,<meals / transport / props / location / other>,<vendor>,<amount>,<VND / USD>,<name>,receipts/<YYYY-MM-DD_item_amount.jpg>,

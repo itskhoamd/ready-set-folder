@@ -1,0 +1,44 @@
+# --- ready-set-folder: keep secrets and junk out of git ---
+# Secrets
+.env
+*.env
+!.env.example
+*.pem
+*.key
+credentials*.json
+service-account*.json
+
+# Never commit what's waiting to be deleted
+_system/_to_delete/*
+!_system/_to_delete/README.md
+
+# System junk
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+
+# Tools
+node_modules/
+__pycache__/
+.venv/
+
+# --- content-creator: big media stays out of git (back it up elsewhere) ---
+footage/**/*
+!footage/**/
+!footage/**/README.md
+work/**/*
+!work/**/
+!work/**/README.md
+!work/**/REPORT.md
+exports/*
+!exports/README.md
+*.mp4
+*.mov
+*.mxf
+*.braw
+*.wav
+*.aif
+*.aiff
+*.mp3
+*.m4a
